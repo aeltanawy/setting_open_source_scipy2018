@@ -8,8 +8,8 @@ import pytest
 
 def test_speed():
     """Test calculating wind speed."""
-    u = np.array([4., 2.,0., 0.])
-    v = np.array([0.,2., 4., 0.])
+    u = np.array([4., 2., 0., 0.])
+    v = np.array([0., 2., 4., 0.])
 
     speed = get_wind_speed(u, v)
 
@@ -45,6 +45,5 @@ def test_dir():
 #ef test_warning_direction():
 #    '''test the arning is required when wind direction > 360.'''
 #    with pytest.warning(UserWarning)
-
 
 #testing if an exception has Raised
