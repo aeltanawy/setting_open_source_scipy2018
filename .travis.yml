@@ -11,5 +11,5 @@ python:
 install:
     - pip install . #no need for e since here we only want to install
 
-scripts:
+script:
     - pytest
