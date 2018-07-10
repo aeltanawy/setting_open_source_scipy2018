@@ -36,11 +36,11 @@ def test_dir():
 
     assert_array_almost_equal(true_dir, direc, 4)
 
-def test_wind_comps_scalar():
-    '''test wind components calculations with scalars.'''
-    u, v = get_wind_components(0, 150)
-    assert_almost_equal(u, -0, 2)
-    assert_almost_equal(v, 6.9282, 2)
+#def test_wind_comps_scalar():
+#    '''test wind components calculations with scalars.'''
+#    u, v = get_wind_components(0, 150)
+#    assert_almost_equal(u, -0, 2)
+#    assert_almost_equal(v, 6.9282, 2)
 
 #ef test_warning_direction():
 #    '''test the arning is required when wind direction > 360.'''
