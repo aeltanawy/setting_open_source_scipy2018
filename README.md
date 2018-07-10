@@ -1,0 +1,1 @@
+setting_open_source_scipy2018
