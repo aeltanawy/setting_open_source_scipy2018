@@ -11,7 +11,7 @@ python:
     - 3.5
 
 install:
-    - pip install . pytest-flake8 flake8-docstrings flake8-import-order #no need for e since here we only want to install
+    - pip install . flake8 pytest-flake8 flake8-docstrings flake8-import-order #no need for e since here we only want to install
 
 script:
     - pytest --flake8
